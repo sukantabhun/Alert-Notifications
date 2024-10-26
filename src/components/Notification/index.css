@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.Success {
+  color: #2dca73;
+}
+
+.Warning {
+  color: #ffb800;
+}
+
+.Error {
+  color: #ff0b37;
+}
+
+.Info {
+  color: #0f81e0;
+}
+
+.alert-text {
+  color: #475569;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.image {
+  align-self: start;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 25px;
+  margin: 25px;
+  width: 600px;
+  max-width: 600px;
+  min-width: 350px;
+  border-radius: 12px;
+  border: solid;
+  border-color: #64748b;
+  border-width: 1pt;
+  padding: 25px;
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: start;
+  row-gap: 15px;
+}
+h1 {
+  margin: 0;
+}
+.cross {
+  align-self: center;
+  justify-self: end;
+  margin-left: auto;
+}
